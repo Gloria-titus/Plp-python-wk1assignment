@@ -6,7 +6,7 @@ operations = {'+': num1 + num2, '-': num1 - num2, '*': num1 * num2, '/': num1 / 
     
 result = operations.get(operation, "Invalid operation. Please enter one of +, -, *, or /.")
 
-print(f"{num1} {operation} {num2} = {result}" if isinstance(result, (int, float)) else result)
+print(f"{num1} {operation} {num2} = {result}")
 
 
     
